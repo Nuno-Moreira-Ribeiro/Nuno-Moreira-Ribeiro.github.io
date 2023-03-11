@@ -2,6 +2,7 @@ body{
     background-image:url(IMG/fondVideo.jpg);
     background-repeat: no-repeat;
 }
+
 #fond{
     display: flex;
     width: 100%;
@@ -18,7 +19,7 @@ body{
     justify-content: center;
     color: white;
     font-family: Arial;
-    font-size: 2vw;
+    font-size: 1.8vw;
 }
 #logo{
     flex-basis: 45%;
@@ -46,6 +47,7 @@ body{
     bottom: 0;
     position: absolute;
     width: 100%;
+    font-size: 2vw;
 }
 #link,
 #link1,
