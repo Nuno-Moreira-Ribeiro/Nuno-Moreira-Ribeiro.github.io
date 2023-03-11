@@ -1,0 +1,74 @@
+body{
+    background-image:url(IMG/fondVideo.jpg);
+    background-repeat: no-repeat;
+}
+#fond{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    margin: 2%;
+}
+#texte{
+    flex-basis: 55%;
+    padding: 2%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: Arial;
+}
+#logo{
+    flex-basis: 45%;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+}
+.moi{
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+.metier{
+    color: rgb(149, 85, 208);
+    
+}
+#social{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+    margin-top: 20%;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+#link,
+#link1,
+#link3{
+    margin: 0.5%;
+    padding: 0.5%;
+    font-size: 220%;
+    color: white;
+}
+
+#link:hover{
+    color: blue;
+}
+#link1:hover{
+    color: rgb(167, 167, 10);
+}
+#link3:hover{
+    color: rgb(0, 136, 255);
+}
+
+
+
+#liens{
+    font-size: 200%;
+    font-family: Arial;
+    color: white;
+}

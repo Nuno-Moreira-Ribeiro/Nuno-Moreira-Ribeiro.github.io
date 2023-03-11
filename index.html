@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/89356d230c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="IMG/logo_transparent.png">
+    <title>Portfolio Nuno</title>
+</head>
+<body>
+    <header id="header">
+        <div class="left">
+        <img id="logoNuno" src=".//IMG/logo_transparent.png"  alt="logo Nuno">
+        </div>
+        <nav class="center">
+            <a class="button" href="index.html">Accueil</a>
+            <a class="button" href="index.html">A Propos</a>
+            <a class="button" href="index.html">Experience</a>
+        </nav>
+        <div class="right">
+        </div>
+    </header>
+    <div id="fond">
+        <div id="texte">
+            <h1 id="bonjour"> <span id="heure"></span>, Je suis Nuno Moreira Ribeiro</h1> 
+            <h1><span class="metier"></span></h1>
+        </div>
+        <script>
+            var date = new Date();
+            var heure = date.getHours();
+            if(heure < 18)
+            {
+                document.getElementById("heure").innerHTML = 'Bonjour';
+            }
+            else if(heure >= 18)
+            {
+                    document.getElementById("heure").innerHTML = 'Bonsoir';
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            
+        <script>
+            var typed = new Typed(".metier",{
+                strings: ["Developpeur", "Web Designer", "Software Ingenier"],
+                typeSpeed: 100 ,
+                backSpeed: 100,
+                loop: true
+                
+            })
+        </script> 
+        <div id="logo">
+            <img class="moi" src="IMG/studying.png" alt="moi">
+        </div>
+        
+    </div>
+    <div id="social">
+        <h1 id="liens">Liens Utils : </h1>
+        <a id="link" class="fa-brands fa-linkedin-in" target="_blank" href="https://www.linkedin.com/in/nuno-moreira-9b6b0525a"></a>
+        <a id="link1" class="fa-brands fa-github" target="_blank" href="https://github.com/Nuno-Moreira-Ribeiro"></a>
+        <a id="link3" class="fa-solid fa-envelope" href="mailto:nuno-08@outlook.fr"></a>
+    </div>
+
+</body>
+</html>
+

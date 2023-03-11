@@ -1,0 +1,163 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.button {
+    border: none;
+    background-color: #3e2184;
+    color: white;
+    font-size: 200%;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    font-family: Arial;
+
+}
+
+header .right {
+    width: 33%;
+}
+
+.button:hover {
+    font-weight: 500;
+    font-size: xx-large;
+    transition-duration: 1s;
+    background-color: aliceblue;
+    color: black;
+    /* border-radius: 20px; */
+    font-family: Arial;
+}
+
+header .left {
+    width: 33%;
+    justify-content: start;
+}
+
+#logoNuno{
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+header .center {
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    width: 33%;
+
+}
+
+header {
+    display: flex;
+    background-color: #3e2184;
+    color: white;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    align-items: center;
+}
+
+@media screen and (max-width:990px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-end;
+    }
+
+    header .left {
+        padding: 1%;
+    }
+
+
+
+    header .right {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        height: 200%;
+    }
+
+    #logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sommaire {
+        visibility: hidden;
+    }
+
+    #formulaire {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+    }
+
+    #presentation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #QuiSommeNous,
+    #OuSommeNous,
+    #QueFaisonsNous {
+        min-width: 90%;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Info,
+    #activite,
+    #RSE,
+    #Conclusion {
+        min-width: 90%;
+    }
+
+}
+
+@media screen and (max-width:490px) {
+    #lienPiedPage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #formulaire {
+        width: 90%;
+        height: 100%;
+    }
+
+    #entreprises img {
+        min-width: 20%;
+        height: 20%;
+        padding-top: 2%;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+}
