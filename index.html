@@ -31,11 +31,14 @@
         <script>
             var date = new Date();
             var heure = date.getHours();
-            if(heure < 18)
+            if(heure < 18 && heure >= 5)
             {
                 document.getElementById("heure").innerHTML = 'Bonjour';
             }
-            else if(heure >= 18)
+            else if(heure >= 18 && heure < 5)
+            {
+                    document.getElementById("heure").innerHTML = 'Bonsoir';
+            }
             {
                     document.getElementById("heure").innerHTML = 'Bonsoir';
             }
