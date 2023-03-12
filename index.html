@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/tippy.js@4/themes/light.css"
+    />
     <script src="https://kit.fontawesome.com/89356d230c.js" crossorigin="anonymous"></script>
     <script> 
-    function copyToClipboard() {
-        const textToCopy = "nunomoreiraribeiro-08@outlook.fr"; // Remplacez cette chaîne de caractères par le texte que vous souhaitez copier
-        navigator.clipboard.writeText(textToCopy).then(function() {
-          alert("Mon mail a été copié dans votre presse-papiers !");
-        }, function() {
-          alert("Une erreur est survenue lors de la copie du mail.");
-        });
-      }
+    
+
+    // function copyToClipboard() {
+    //     const textToCopy = "nunomoreiraribeiro-08@outlook.fr"; // Remplacez cette chaîne de caractères par le texte que vous souhaitez copier
+    //     navigator.clipboard.writeText(textToCopy).then(function() {
+    //       alert("Mon mail a été copié dans votre presse-papiers !");
+    //     }, function() {
+    //       alert("Une erreur est survenue lors de la copie du mail.");
+    //     });
+    //   }
       </script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="style.css">
@@ -38,6 +44,7 @@
             <h1 id="bonjour"> <span id="heure"></span>, Je suis Nuno Moreira Ribeiro</h1> 
             <h1><span class="metier"></span></h1>
         </div>
+        
         <script>
             var date = new Date();
             var heure = date.getHours();
@@ -73,8 +80,11 @@
         <h1 id="liens">Liens Utils : </h1>
         <a id="link" class="fa-brands fa-linkedin-in" target="_blank" href="https://www.linkedin.com/in/nuno-moreira-9b6b0525a"></a>
         <a id="link1" class="fa-brands fa-github" target="_blank" href="https://github.com/Nuno-Moreira-Ribeiro"></a>
-        <a onclick="copyToClipboard()" id="link3" class="fa-solid fa-envelope" ></a>
+        <a id="copyBtn" class="fa-solid fa-envelope" ></a>
     </div>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>

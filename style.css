@@ -52,7 +52,7 @@ body{
 }
 #link,
 #link1,
-#link3{
+#copyBtn{
     margin: 0.5%;
     padding: 0.5%;
     font-size: 220%;
@@ -65,7 +65,7 @@ body{
 #link1:hover{
     color: rgb(167, 167, 10);
 }
-#link3:hover{
+#copyBtn:hover{
     color: rgb(0, 136, 255);
 }
 
@@ -76,6 +76,11 @@ body{
     font-family: Arial;
     color: white;
 }
+
+.tippy-box.my-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
 
 @media screen and (max-width:990px) {
     #social{
