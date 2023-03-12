@@ -77,10 +77,6 @@ body{
     color: white;
 }
 
-.tippy-box.my-theme {
-    background-color: #ffffff;
-    color: #000000;
-  }
 
 @media screen and (max-width:990px) {
     #social{
