@@ -1,3 +1,7 @@
+html{
+    overflow: hidden;
+
+}
 body{
     background-image:url(IMG/fondVideo.jpg);
     background-repeat: no-repeat;

@@ -20,12 +20,15 @@ tippy('#copyBtn', {
     });
     });
 
-    let cards = document.querySelectorAll('.card');
+    // Path: script.js
 
-    cards.forEach(card => {
-      card.addEventListener('click', () => {
-        card.classList.remove('fullscreen');
-      });
-    });
+
+    // let cards = document.querySelectorAll('.card');
+
+    // cards.forEach(card => {
+    //   card.addEventListener('click', () => {
+    //     card.classList.remove('fullscreen');
+    //   });
+    // });
     
     
