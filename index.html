@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
+     <link
     rel="stylesheet"
     href="https://unpkg.com/tippy.js@4/themes/light.css"
-    />
+    /> 
     <script src="https://kit.fontawesome.com/89356d230c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="style.css">
@@ -36,17 +36,15 @@
         <script>
             var date = new Date();
             var heure = date.getHours();
-            if(heure < 18 && heure >= 5)
+            if(heure < 18 )
             {
                 document.getElementById("heure").innerHTML = 'Bonjour';
             }
-            else if(heure >= 18 && heure < 5)
+            else if(heure >= 18 )
             {
                     document.getElementById("heure").innerHTML = 'Bonsoir';
             }
-            {
-                    document.getElementById("heure").innerHTML = 'Bonsoir';
-            }
+           
         </script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
             
@@ -73,6 +71,7 @@
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
     <script src="script.js"></script>
+
 
 </body>
 </html>

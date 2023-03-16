@@ -158,6 +158,8 @@ i {
   font-size: 1.5vw;
 }
 
+
+
 @media screen and (max-width: 490px){
   .card {
       margin-left: 10vw;
