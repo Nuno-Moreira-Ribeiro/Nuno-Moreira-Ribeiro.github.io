@@ -87,5 +87,20 @@ body{
     #social{
         font-size: 2.3vh;
     }
+
+    #texte{
+        font-size: 2.1vh;
+        flex-basis:100% ;
+    }
+    #fond{
+        flex-wrap: wrap;
+    }
+    .moi{
+        min-width: 60vw;
+    }
+    #logo{
+        flex-basis: 100%;
+        margin-top: 10%;
+    }
 }
 
