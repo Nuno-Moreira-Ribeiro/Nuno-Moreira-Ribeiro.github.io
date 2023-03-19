@@ -2,6 +2,9 @@ html{
     background-color: rgb(171, 112, 255);
 }
 
+.sujet{
+  margin: 1%;
+}
 
   .card-container {
     display: flex;
