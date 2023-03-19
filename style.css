@@ -96,7 +96,7 @@ body{
         flex-wrap: wrap;
     }
     .moi{
-        min-width: 60vw;
+        min-width: 50vw;
     }
     #logo{
         flex-basis: 100%;
