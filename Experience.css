@@ -57,6 +57,10 @@ html{
     color: white;
   }
   
+.card-expanded-title {
+    font-size: 5vh;
+  }
+
   .card-buttons {
     display: flex;
     justify-content: center;
@@ -161,11 +165,50 @@ i {
   font-size: 1.5vw;
 }
 
+.fa-download{
+  font-size: 1.7vw;
+}
+.card-expanded-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.download-btn{
+  background-color: #1e90ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 1vh;
+  padding: 9px 9px;
+}
 
+.svg{
+  width: 5vw;
+  height: 4vw;
+}
 
 @media screen and (max-width: 490px){
   .card {
       margin-left: 10vw;
       margin-right: 10vw;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .download-text {
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width: 720px) {
+  .download-icon {
+    margin-right: 10px;
+  }
+  .download-icon {
+    display: none;
   }
 }
