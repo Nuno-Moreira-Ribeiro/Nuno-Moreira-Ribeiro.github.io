@@ -1,5 +1,3 @@
-// Initialiser Tippy.js
-
 tippy('#copyBtn', {
     content: 'Cliquez pour copier mon mail',
     arrow: true,
@@ -19,16 +17,5 @@ tippy('#copyBtn', {
         copyBtn._tippy.setContent('Une erreur est survenue lors de la copie du mail.');
     });
     });
-
-    // Path: script.js
-
-
-    // let cards = document.querySelectorAll('.card');
-
-    // cards.forEach(card => {
-    //   card.addEventListener('click', () => {
-    //     card.classList.remove('fullscreen');
-    //   });
-    // });
     
     
