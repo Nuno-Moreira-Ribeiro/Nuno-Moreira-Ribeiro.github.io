@@ -220,4 +220,7 @@ i {
       width: 80%;
       height: 90%;
     }
+    .card-expanded-image{
+      display: none;
+    }
   }
