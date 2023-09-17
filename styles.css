@@ -9,38 +9,42 @@ html {
     box-sizing: border-box;
 }
 
-.button {
-    border: none;
-    background-color: #3e2184;
-    color: white;
-    width: auto;
-    font-size: 210%;
-    height: auto;
-    padding: 2%;
-    font-family: Arial;
-
-}
-
 header .right {
     width: 33%;
 }
 
-.button:hover {
-    font-weight: 500;
-    transition-duration: 1s;
-    background-color: aliceblue;
-    color: black;
-    /* border-radius: 20px; */
-    font-family: Arial;
+.button {
+    transition-duration: 0.3s;
+    border: none;
+    text-align: center;
+    width: 25em;
+    font-size: 210%;
+    height: auto;
+    padding: 2%;
+    font-family: "Mooli" ;
+    position: relative;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    left: 50%; 
+    bottom: 0;
+    width: 0; 
+    height: 3px; 
+    background-color: white;
+    transform: translateX(-50%); 
+    transition: width 0.3s ease-in-out;
+}
+
+.button:hover::after {
+    width: 100%;
+    transition-duration: 0.5s;
 }
 
 header .left {
     width: 33%;
     justify-content: start;
-}
-
-#logoNuno{
-    width: 100px;
 }
 
 a {
@@ -59,7 +63,6 @@ header .center {
 
 header {
     display: flex;
-    background-color: #3e2184;
     color: white;
     width: 100%;
     height: 100px;

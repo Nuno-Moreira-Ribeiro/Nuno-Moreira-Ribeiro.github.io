@@ -3,7 +3,8 @@ html{
 
 }
 body{
-    background-image:url(IMG/fondVideo.jpg);
+    /*Cover designed by Freepik*/
+    background-image:url(IMG/fond.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -60,29 +61,16 @@ body{
     margin: 0.5%;
     padding: 0.5%;
     font-size: 220%;
-    color: white;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
 }
 
-#link:hover{
-    color: blue;
+#social > a:hover{
+    scale: 1.1;
+    transition: 0.3s;
 }
-#link1:hover{
-    color: rgb(167, 167, 10);
-}
-#copyBtn:hover{
-    color: rgb(0, 136, 255);
-}
-
-
-
-
-#liens{
-    font-size: 200%;
-    font-family: Arial;
-    color: white;
-}
-
-
 
 @media screen and (max-width:990px) {
     #social{

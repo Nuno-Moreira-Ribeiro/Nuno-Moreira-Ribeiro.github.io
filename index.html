@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link
-    rel="stylesheet"
-    href="https://unpkg.com/tippy.js@4/themes/light.css"
-    /> 
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@4/themes/light.css" />
     <script src="https://kit.fontawesome.com/89356d230c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="IMG/logo_transparent.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
     <title>Portfolio Nuno</title>
 </head>
+
 <body>
     <header id="header">
         <div class="left">
-        <img id="logoNuno" src=".//IMG/logo_transparent.png"  alt="logo Nuno">
         </div>
         <nav class="center">
             <a class="button" href="index.html">Accueil</a>
@@ -29,44 +30,42 @@
     </header>
     <div id="fond">
         <div id="texte">
-            <h1 id="bonjour"> <span id="heure"></span>, Je suis Nuno Moreira Ribeiro</h1> 
+            <h1 id="bonjour"> <span id="heure"></span>, Je suis Nuno Moreira Ribeiro</h1>
             <h1><span class="metier"></span></h1>
         </div>
-        
+
         <script>
             var date = new Date();
             var heure = date.getHours();
-            if(heure < 18 )
-            {
+            if (heure < 18) {
                 document.getElementById("heure").innerHTML = 'Bonjour';
             }
-            else if(heure >= 18 )
-            {
-                    document.getElementById("heure").innerHTML = 'Bonsoir';
+            else if (heure >= 18) {
+                document.getElementById("heure").innerHTML = 'Bonsoir';
             }
-           
+
         </script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-            
+
         <script>
-            var typed = new Typed(".metier",{
-                strings: ["Développeur web", "Développeur logiciel","Intégrateur web", "Administrateur réseaux"," Administrateur systèmes"],
-                typeSpeed: 70 ,
+            var typed = new Typed(".metier", {
+                strings: ["Développeur web", "Développeur logiciel", "Intégrateur web", "Administrateur réseaux", " Administrateur systèmes"],
+                typeSpeed: 70,
                 backSpeed: 55,
                 loop: true
-                
+
             })
-        </script> 
+        </script>
         <div id="logo">
             <img class="moi" src="IMG/studying.png" alt="moi">
         </div>
-        
+
     </div>
     <div id="social">
-        <h1 id="liens">Liens Utiles : </h1>
-        <a id="link" class="fa-brands fa-linkedin-in" target="_blank" href="https://www.linkedin.com/in/nuno-moreira-9b6b0525a"></a>
+        <a id="link" class="fa-brands fa-linkedin-in" target="_blank"
+            href="https://www.linkedin.com/in/nuno-moreira-9b6b0525a"></a>
         <a id="link1" class="fa-brands fa-github" target="_blank" href="https://github.com/Nuno-Moreira-Ribeiro"></a>
-        <a id="copyBtn" class="fa-solid fa-envelope" ></a>
+        <a id="copyBtn" class="fa-solid fa-envelope"></a>
     </div>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
@@ -74,5 +73,5 @@
 
 
 </body>
-</html>
 
+</html>
