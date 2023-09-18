@@ -1,21 +1,23 @@
-html{
+html {
     overflow: hidden;
 
 }
-body{
+
+body {
     /*Cover designed by Freepik*/
-    background-image:url(IMG/fond.svg);
+    background-image: url(IMG/fond.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#fond{
+#fond {
     display: flex;
     width: 100%;
     height: 60%;
     margin: 2%;
 }
-#texte{
+
+#texte {
     flex-basis: 55%;
     padding: 2%;
     min-height: 100%;
@@ -27,23 +29,27 @@ body{
     font-family: Arial;
     font-size: 1.8vw;
 }
-#logo{
+
+#logo {
     flex-basis: 45%;
     display: flex;
     justify-content: center;
     padding: 2%;
 
 }
-.moi{
+
+.moi {
     width: 20vw;
     justify-content: center;
     align-items: center;
 }
-.metier{
+
+.metier {
     color: rgb(149, 85, 208);
-    
+
 }
-#social{
+
+#social {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -55,41 +61,46 @@ body{
     width: 100%;
     font-size: 1.5vw;
 }
+
 #link,
 #link1,
-#copyBtn{
+#copyBtn {
     margin: 0.5%;
     padding: 0.5%;
     font-size: 220%;
     background: linear-gradient(135deg, #3498db, #8e44ad);
-    background-clip: text; 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.3s;
 }
 
-#social > a:hover{
+#social>a:hover {
     scale: 1.1;
     transition: 0.3s;
 }
 
 @media screen and (max-width:990px) {
-    #social{
+    #social {
         font-size: 2.3vh;
     }
 
-    #texte{
+    #texte {
         font-size: 2.1vh;
-        flex-basis:100% ;
+        flex-basis: 100%;
     }
-    #fond{
+
+    #fond {
         flex-wrap: wrap;
     }
-    .moi{
+
+    .moi {
         min-width: 50vw;
     }
-    #logo{
+
+    #logo {
         flex-basis: 100%;
         margin-top: 10%;
     }
 }
-
