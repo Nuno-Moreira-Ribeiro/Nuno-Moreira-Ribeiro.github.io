@@ -3,11 +3,11 @@
 }
 
 .button {
-  color: black;
+  color: #5127c2;
 }
 
 .button::after {
-  background-color: black;
+  background-color: #5127c2;
 }
 
 .card-container {
@@ -51,7 +51,6 @@
 }
 
 h1,
-hr,
 h2,
 h3,
 h4,
@@ -60,8 +59,15 @@ h6,
 p,
 i {
   font-family: Arial;
-  color: black;
+  color: #5127c2 ;
 }
+
+hr {
+  background-color: #5127c2;
+  height: 10px; 
+
+}
+
 
 .card-expanded-title {
   font-size: 5vh;
