@@ -23,6 +23,8 @@ header .right {
     padding: 2%;
     font-family: "Mooli";
     position: relative;
+    font-weight: bold;
+
 }
 
 .button::after {
@@ -116,7 +118,7 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        background-color: rgba(0, 0, 0, 0.23);
+        background-color: rgba(80, 39, 193, 0.259);
     }
 
     nav a {
