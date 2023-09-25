@@ -1,0 +1,143 @@
+{
+    "projects": [
+        {
+            "previewTitle": "Centrale domotique",
+            "projectTitle": "Odomo",
+            "previewImg": "stationMeteo1.png",
+            "projectImg": "odomo.jpg",
+            "description": "Le projet Odomo est une centrale domotique qui regroupe, une partie information météorologique, une gestion du chauffage, mais également la gestion de l'irrigation d'un Jardin. Ce projet m'a permis d'apprendre à maitriser les matrices qui sont indispensables dans la programmation, l'importance des tests unitaires pour un programme mais également la gestion du temps et du travail d'un projet sur le long terme.",
+            "containerId": "prog-container",
+            "tools": [
+                "java-icon.svg",
+                "NetBeans-Logo.wine.svg"
+            ],
+            "retexLink": "Odomo.pdf"
+        },
+        {
+            "previewTitle": "Jeu de plateau",
+            "projectTitle": "Biosphere7",
+            "previewImg": "Biosphere70BIS.jpg",
+            "projectImg": "biosphere.jpg",
+            "description": "Ce projet m'a permis de développer une compréhension des exigences relatives à un logiciel. J'ai dû concevoir mon code de manière ordonnée et explicite, vu que celui-ci a pour vocation d'être utilisé par d'autres développeurs. Au cours de la seconde phase de ce projet, il était nécessaire de concevoir deux intelligences artificielles. En conséquence, j'ai dû élaborer deux approches distinctes. Il était impératif de se baser sur des stratégies de jeux de plateau.",
+            "containerId": "prog-container",
+            "tools": [
+                "java-icon.svg",
+                "git-scm-icon.svg",
+                "NetBeans-Logo.wine.svg"
+            ],
+            "retexLink": "Biosphere7.pdf"
+        },
+        {
+            "previewTitle": "Jeu de plateau",
+            "projectTitle": "Hyperstellar",
+            "previewImg": "depositphotos_32108825-stock-photo-blue-sunrise-view-of-earth.jpg",
+            "projectImg": "JeuHyperstellar.png",
+            "description": "Ce projet réalisé à l'IUT informatique de Bordeaux vise à développer une application complète pour un jeu de plateau inventé, appelé “Hyperstellar“. Le jeu est conçu pour être joué entre 2 à 4 joueurs et se déroule dans une station spatiale. Au sein de ce projet, j'ai pu améliorer mes compétences en c#. Utiliser une technologie d'IU Windows Forms pour le framework .NET. J'ai pu apporter mes connaissances en termes de tests unitaires et de programmation orientée objet.",
+            "containerId": "prog-container",
+            "tools": [
+                "c--4.svg",
+                "dotnet.svg",
+                "Unified Modelling Language (UML).svg",
+                "git-scm-icon.svg",
+                "visual-studio-seeklogo.com.svg"
+            ],
+            "retexLink": ""
+        },
+        {
+            "previewTitle": "Editeur de graphes",
+            "projectTitle": "Editeur de graphes",
+            "previewImg": "graphe1.png",
+            "projectImg": "graphe.jpg",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum tenetur mollitia, veniam dolor asperiores nam. Minus quae nam et inventore, dolor perspiciatis dicta repellendus id perferendis impedit sit consectetur fuga?",
+            "containerId": "prog-container",
+            "tools": [
+                "java-icon.svg",
+                "git-scm-icon.svg",
+                "NetBeans-Logo.wine.svg"
+            ],
+            "retexLink": ""
+        },
+        {
+            "previewTitle": "Visualisation de données",
+            "projectTitle": "COMPUT-R",
+            "previewImg": "COMPUT-R.jpg",
+            "projectImg": "graphiqueComput-r.jpg",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum tenetur mollitia, veniam dolor asperiores nam. Minus quae nam et inventore, dolor perspiciatis dicta repellendus id perferendis impedit sit consectetur fuga?",
+            "containerId": "prog-container",
+            "tools": [
+                "python-5.svg",
+                "sql-database-generic.svg",
+                "c--4.svg",
+                "dotnet.svg"
+            ],
+            "retexLink": ""
+        },
+        {
+            "previewTitle": "Machine virtuelle",
+            "projectTitle": "Machine virtuelle",
+            "previewImg": "vm1.png",
+            "projectImg": "vmw.jpg",
+            "description": "Le projet d'installation de poste consiste à préparer un environnement prêt à être utilisé par des développeurs de Go. Il a fallu installer et configurer une machine virtuelle avec des caractéristiques précises pour répondre aux attentes. Ce projet m'a fait découvrir la gestion des utilisateurs d'une machine, avec la gestion des droits et la configuration des composants de shell.",
+            "containerId": "system-network-container",
+            "tools": [
+                "linux-icon.svg",
+                "golang-icon.svg"
+            ],
+            "retexLink": "RETEX/MachineVirtuelle.pdf"
+        },
+        {
+            "previewTitle": "Serveur de fichiers",
+            "projectTitle": "Serveur de fichiers",
+            "previewImg": "serveurDeFichier.svg.png",
+            "projectImg": "serveurDeFichier.jpg",
+            "description": "Ce projet m'a permis de configurer un réseau informatique pour permettre aux clients de communiquer et d'avoir accès à un serveur de fichiers. Dans un premier temps, je devais configurer les différents sous-réseaux suivis des machines qui serviraient de serveur de fichiers et d'éditeur de fichiers. Grâce à ce projet, j'ai acquis des compétences en configuration réseau et en implémentation de serveurs de fichiers utilisant Nextcloud.",
+            "containerId": "system-network-container",
+            "tools": [
+                "reseau.svg",
+                "nextcloud-ar21.svg",
+                "ONLYOFFICE_logo.svg",
+                "markdown.svg"
+            ],
+            "retexLink": ""
+        },
+        {
+            "previewTitle": "Site d'une entreprise",
+            "projectTitle": "Cannaj Consulting",
+            "previewImg": "logoCannaj.jpg",
+            "projectImg": "Capture d'écran 2023-05-27 151314.png",
+            "description": "Ce projet consiste à créer un site internet pour une entreprise de consulting que j'avais préalablement créée dans un autre projet. Le site web a été conçu pour répondre aux besoins spécifiques de l'entreprise. Avant de commencer le développement, j'ai travaillé sur la conception d'une maquette et d'une fiche persona afin de m'assurer que le site réponde aux attentes spécifiques de l'entreprise et de ses clients potentiels.",
+            "containerId": "html-container",
+            "tools": [
+                "w3_html5-icon.svg",
+                "w3_css-icon.svg"
+            ],
+            "retexLink": "RETEX/SiteCannaj.pdf"
+        },
+        {
+            "previewTitle": "Achat de billet de concert",
+            "projectTitle": "Base de données",
+            "previewImg": "bd.jpg",
+            "projectImg": "bdR1.jpg",
+            "description": "Ce projet a été enrichissant pour moi, car tout d'abord j'ai pu identifier des besoins client spécifiques en étudiant le système de données à implémenter, mais également créer une base de données, réaliser un remplissage de la base de données et en tester son intégrité.",
+            "containerId": "bd-container",
+            "tools": [
+                "sql-database-generic.svg"
+            ],
+            "retexLink": "RETEX/BaseDeDonnéesConcert.pdf"
+        },
+        {
+            "previewTitle": "Calculatrice",
+            "projectTitle": "Calculatrice",
+            "previewImg": "calculator.png",
+            "projectImg": "calculatrice2.jpg",
+            "description": "Pendant mes vacances, j'ai décidé de relever le défi de créer une application en utilisant Android Studio. C'était l'occasion pour moi de découvrir un nouveau langage de programmation appelé Kotlin, développé par JetBrains. Grâce à mon apprentissage de Kotlin, ainsi que du XML et de l'environnement de développement Android Studio, j'ai pu mener à bien mon projet et créer une application réussie.",
+            "containerId": "perso-container",
+            "tools": [
+                "android-studio-icon.svg",
+                "Kotlin Logo Vector.svg",
+                "xml-svgrepo-com.svg"
+            ],
+            "retexLink": ""
+        }
+    ]
+}

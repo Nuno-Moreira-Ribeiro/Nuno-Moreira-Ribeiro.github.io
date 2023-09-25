@@ -126,6 +126,16 @@ p.card-expanded-text{
   color:white;
 }
 
+h2.card-expanded-title{
+  font-family: "Mooli";
+}
+
+#hrTitle{
+  width: 90%;
+  height: 5px;
+  background-color: white;
+}
+
 hr {
   background-color: #5127c2;
   height: 10px; 
