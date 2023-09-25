@@ -66,7 +66,7 @@
 }
 
 .card:hover p.heading {
-  color: white; /* Changez "white" à la couleur blanche souhaitée */
+  color: white;
 }
 
 
@@ -126,11 +126,16 @@ p.card-expanded-text{
   color:white;
 }
 
+p.card-expanded-text{
+  width: 85%;
+  text-align: justify;
+}
+
 h2.card-expanded-title{
   font-family: "Mooli";
 }
 
-#hrTitle{
+#hrTitles{
   width: 90%;
   height: 5px;
   background-color: white;
@@ -139,18 +144,15 @@ h2.card-expanded-title{
 hr {
   background-color: #5127c2;
   height: 10px; 
-
 }
-
 
 .card-expanded-title {
   font-size: 5vh;
 }
 
-
-
-
 .card-expanded {
+  display: flex;
+  flex-direction: row-reverse;
   position: fixed;
   top: 0;
   left: 0;
@@ -189,10 +191,17 @@ hr {
   margin-bottom: 1rem;
 }
 
+.card-expanded-image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .card-expanded-image img {
   max-width: 60vw;
   max-height: 60vh;
   margin-left: 2vw;
+  margin-right: .4rem;
 
 }
 
@@ -221,13 +230,17 @@ margin .card-expanded .card-content .logos {
 }
 
 .close-btn {
-  background: linear-gradient(-45deg, #29b0f8 0%, #8f0fff 100% );
+  background: linear-gradient(-45deg, #ff7b00 0%, #ff0000 100% );
   color: #ffffff;
   border: none;
   border-radius: 3px;
   padding: 10px 20px;
   cursor: pointer;
   margin-top: 1vh;
+  font-size: large;
+  margin-bottom: .4rem;
+  margin-right: .4rem;
+  
 }
 
 .card-expanded-text {
@@ -255,7 +268,15 @@ margin .card-expanded .card-content .logos {
   cursor: pointer;
   margin-top: 1vh;
   padding: 9px 9px;
+  font-weight: bold;
+  font-size: large;
 }
+
+/* .download-btn:hover{
+  border: 2px solid #ffffff;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.5);
+} */
 
 .svg {
   width: 5vw;
@@ -303,7 +324,11 @@ body {
     height: 90%;
   }
 
-  .card-expanded-image {
+  .card-expanded-image img{
     display: none;
+  }
+
+  .card-expanded-image{
+    width: 100vw;
   }
 }

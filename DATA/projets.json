@@ -83,7 +83,7 @@
                 "linux-icon.svg",
                 "golang-icon.svg"
             ],
-            "retexLink": "RETEX/MachineVirtuelle.pdf"
+            "retexLink": "MachineVirtuelle.pdf"
         },
         {
             "previewTitle": "Serveur de fichiers",
@@ -111,7 +111,7 @@
                 "w3_html5-icon.svg",
                 "w3_css-icon.svg"
             ],
-            "retexLink": "RETEX/SiteCannaj.pdf"
+            "retexLink": "SiteCannaj.pdf"
         },
         {
             "previewTitle": "Achat de billet de concert",
@@ -123,7 +123,7 @@
             "tools": [
                 "sql-database-generic.svg"
             ],
-            "retexLink": "RETEX/BaseDeDonnéesConcert.pdf"
+            "retexLink": "BaseDeDonnéesConcert.pdf"
         },
         {
             "previewTitle": "Calculatrice",

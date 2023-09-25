@@ -29,19 +29,20 @@ function generateCardCode(project) {
           <button class="card-btn">En savoir plus</button>
         </div>
         <div class="card-expanded">
-          <div class="card-expanded-image">
-            <img src="${IMGsPath}${project.projectImg}" alt="Placeholder Image">
-          </div>
-          <div class="card-expanded-content">
-            <h2 class="card-expanded-title">${project.projectTitle}</h2>
-            <hr id="hrTitles">
-            <p class="card-expanded-text">${project.description}</p>
-            <div class="card-expanded-logos">
-                ${generateCardToolsCode(project.tools)}
+            <div class="card-expanded-image">
+            <button class="close-btn">&#10006;</button>
+
+              <img src="${IMGsPath}${project.projectImg}" alt="Placeholder Image">
             </div>
-            <button class="close-btn">Revenir en arriere</button>
-            ${generateCardRetexCode(project.retexLink)}
-          </div>
+            <div class="card-expanded-content">
+              <h2 class="card-expanded-title">${project.projectTitle}</h2>
+              <hr id="hrTitles">
+              <p class="card-expanded-text">${project.description}</p>
+              <div class="card-expanded-logos">
+                  ${generateCardToolsCode(project.tools)}
+              </div>
+              ${generateCardRetexCode(project.retexLink)}
+            </div>
         </div>
       </div>
     `;
@@ -52,7 +53,7 @@ function generateCardCode(project) {
 function generateCardToolsCode(tools) {
   let toolsCode = ``;
   tools.forEach(tool => {
-    toolsCode += `<img class="svg" src="${IMGsPath}${tool}" alt="java"></img>`
+    toolsCode += `<img class="svg" src="${IMGsPath}${tool}" alt="${tool}" draggable="false"></img>`
   });
   return toolsCode;
 }
