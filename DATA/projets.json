@@ -48,7 +48,7 @@
             "projectTitle": "Editeur de graphes",
             "previewImg": "graphe1.png",
             "projectImg": "graphe.jpg",
-            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum tenetur mollitia, veniam dolor asperiores nam. Minus quae nam et inventore, dolor perspiciatis dicta repellendus id perferendis impedit sit consectetur fuga?",
+            "description": "Lors de ce projet réalisé à l'IUT informatique de Bordeaux, qui consistait à créer un modélisateur et éditeur de graphe avec l'utilisation de différentes bibliothèques comme Java swing, j'ai eu l'occasion de mettre en œuvre des algorithmes de parcours en largeur, en profondeur et A*.",
             "containerId": "prog-container",
             "tools": [
                 "java-icon.svg",
@@ -62,7 +62,7 @@
             "projectTitle": "COMPUT-R",
             "previewImg": "COMPUT-R.jpg",
             "projectImg": "graphiqueComput-r.jpg",
-            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum tenetur mollitia, veniam dolor asperiores nam. Minus quae nam et inventore, dolor perspiciatis dicta repellendus id perferendis impedit sit consectetur fuga?",
+            "description": "Durant ce projet de fin de première année à l'IUT informatique de Bordeaux, au sein d'une équipe de 4 étudiants, où le but était d'avoir une application de visualisation de données sur l'environnement de plusieurs pays. J'ai réalisé plusieurs tâches comme la liaison entre la base de données et l'application, la génération de graphiques en Python et l'interface IHM en C#  .NET",
             "containerId": "prog-container",
             "tools": [
                 "python-5.svg",
