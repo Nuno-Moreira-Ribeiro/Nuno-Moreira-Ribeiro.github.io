@@ -138,6 +138,20 @@
                 "xml-svgrepo-com.svg"
             ],
             "retexLink": ""
+        },
+        {
+            "previewTitle": "Socio-o-meter",
+            "projectTitle": "Socio-o-meter",
+            "previewImg": "socio-o-meter.png",
+            "projectImg": "socio-o-meter-page.png",
+            "description": "Un ami travaillait sur le développement d'un site web pour acquérir des compétences en JavaScript. Il avait besoin d'aide, alors j'ai apporté mon soutien au projet en m'occupant du responsive design, de l'optimisation des temps de chargement, et en intégrant une API de chat. En travaillant sur cette initiative, j'ai eu l'opportunité de m'initier au JavaScript, en apprenant notamment comment les cookies sont utilisés, etc... .",
+            "containerId": "perso-container",
+            "tools": [
+                "w3_html5-icon.svg",
+                "w3_css-icon.svg",
+                "javascript-1.svg"
+            ],
+            "retexLink": ""
         }
     ]
 }
