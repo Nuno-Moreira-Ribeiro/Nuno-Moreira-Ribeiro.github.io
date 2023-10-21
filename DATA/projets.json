@@ -156,7 +156,7 @@
         {
             "previewTitle": "2048",
             "projectTitle": "2048",
-            "previewImg": "logo.png",
+            "previewImg": "logo2048.png",
             "projectImg": "Jeu2048.png",
             "description": "Tout au long de ce projet, j'ai utilisé JavaScript pour développer un jeu 2048 . Les mouvements du jeu ont été implémentés en utilisant des fonctions JavaScript, et j'ai créé une interface utilisateur avec HTML et CSS. Pour assurer la robustesse du code, j'ai mis en place des tests unitaires en utilisant jest. Ces tests ont permis de garantir le bon fonctionnement des fonctionnalités du jeu.",
             "containerId": "perso-container",
