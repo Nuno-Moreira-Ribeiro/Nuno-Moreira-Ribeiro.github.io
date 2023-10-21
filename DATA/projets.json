@@ -152,6 +152,23 @@
                 "javascript-1.svg"
             ],
             "retexLink": ""
+        },
+        {
+            "previewTitle": "2048",
+            "projectTitle": "2048",
+            "previewImg": "logo.png",
+            "projectImg": "Jeu2048.png",
+            "description": "Tout au long de ce projet, j'ai utilisé JavaScript pour développer un jeu 2048 . Les mouvements du jeu ont été implémentés en utilisant des fonctions JavaScript, et j'ai créé une interface utilisateur avec HTML et CSS. Pour assurer la robustesse du code, j'ai mis en place des tests unitaires en utilisant jest. Ces tests ont permis de garantir le bon fonctionnement des fonctionnalités du jeu.",
+            "containerId": "perso-container",
+            "tools": [
+                "w3_html5-icon.svg",
+                "w3_css-icon.svg",
+                "javascript-1.svg",
+                "Node.js.svg",
+                "Jest.svg"
+
+            ],
+            "retexLink": ""
         }
     ]
 }
