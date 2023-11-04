@@ -151,7 +151,8 @@
                 "w3_css-icon.svg",
                 "javascript-1.svg"
             ],
-            "retexLink": ""
+            "retexLink": "",
+            "link": "https://hellolife2750.github.io/socio-o-meter/"
         },
         {
             "previewTitle": "2048",
@@ -166,9 +167,9 @@
                 "javascript-1.svg",
                 "Node.js.svg",
                 "Jest.svg"
-
             ],
-            "retexLink": ""
+            "retexLink": "",
+            "link": "https://nuno-moreira-ribeiro.github.io/2048/"
         }
     ]
 }

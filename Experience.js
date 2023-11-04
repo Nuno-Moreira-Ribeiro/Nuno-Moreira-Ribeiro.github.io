@@ -42,6 +42,7 @@ function generateCardCode(project) {
                   ${generateCardToolsCode(project.tools)}
               </div>
               ${generateCardRetexCode(project.retexLink)}
+              ${generateCardLink(project.link)}
             </div>
         </div>
       </div>
@@ -67,6 +68,22 @@ function generateCardRetexCode(retexLink) {
     <a href="RETEX/${retexLink}" target="_blank">
         <button class="download-btn">
             <span class="download-text">Mon retour d'expérience</span>
+        </button>
+    </a>
+    `;
+  }
+
+  return retexCode;
+}
+
+function generateCardLink(Link) {
+  let retexCode = "";
+
+  if (Link != "") {
+    retexCode += `
+    <a href="${Link}" target="_blank">
+        <button class="download-btn">
+            <span class="download-text">Le site</span>
         </button>
     </a>
     `;
