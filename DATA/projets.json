@@ -11,7 +11,8 @@
                 "java-icon.svg",
                 "NetBeans-Logo.wine.svg"
             ],
-            "retexLink": "Odomo.pdf"
+            "retexLink": "Odomo.pdf",
+            "link": ""
         },
         {
             "previewTitle": "Jeu de plateau",
@@ -25,7 +26,8 @@
                 "git-scm-icon.svg",
                 "NetBeans-Logo.wine.svg"
             ],
-            "retexLink": "Biosphere7.pdf"
+            "retexLink": "Biosphere7.pdf",
+            "link": ""
         },
         {
             "previewTitle": "Jeu de plateau",
@@ -41,7 +43,8 @@
                 "git-scm-icon.svg",
                 "visual-studio-seeklogo.com.svg"
             ],
-            "retexLink": ""
+            "retexLink": "",
+            "link": ""
         },
         {
             "previewTitle": "Editeur de graphes",
@@ -55,7 +58,8 @@
                 "git-scm-icon.svg",
                 "NetBeans-Logo.wine.svg"
             ],
-            "retexLink": ""
+            "retexLink": "",
+            "link": ""
         },
         {
             "previewTitle": "Visualisation de données",
@@ -70,7 +74,8 @@
                 "c--4.svg",
                 "dotnet.svg"
             ],
-            "retexLink": ""
+            "retexLink": "",
+            "link": ""
         },
         {
             "previewTitle": "Machine virtuelle",
@@ -83,7 +88,8 @@
                 "linux-icon.svg",
                 "golang-icon.svg"
             ],
-            "retexLink": "MachineVirtuelle.pdf"
+            "retexLink": "MachineVirtuelle.pdf",
+            "link": ""
         },
         {
             "previewTitle": "Serveur de fichiers",
@@ -98,7 +104,8 @@
                 "ONLYOFFICE_logo.svg",
                 "markdown.svg"
             ],
-            "retexLink": ""
+            "retexLink": "",
+            "link": ""
         },
         {
             "previewTitle": "Site d'une entreprise",
@@ -111,7 +118,8 @@
                 "w3_html5-icon.svg",
                 "w3_css-icon.svg"
             ],
-            "retexLink": "SiteCannaj.pdf"
+            "retexLink": "SiteCannaj.pdf",
+            "link": ""
         },
         {
             "previewTitle": "Achat de billet de concert",
@@ -123,7 +131,8 @@
             "tools": [
                 "sql-database-generic.svg"
             ],
-            "retexLink": "BaseDeDonnéesConcert.pdf"
+            "retexLink": "BaseDeDonnéesConcert.pdf",
+            "link": ""
         },
         {
             "previewTitle": "Calculatrice",
@@ -137,7 +146,8 @@
                 "Kotlin Logo Vector.svg",
                 "xml-svgrepo-com.svg"
             ],
-            "retexLink": ""
+            "retexLink": "",
+            "link": ""
         },
         {
             "previewTitle": "Socio-o-meter",
