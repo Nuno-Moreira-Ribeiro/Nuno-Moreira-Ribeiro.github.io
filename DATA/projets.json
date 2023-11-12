@@ -180,6 +180,21 @@
             ],
             "retexLink": "",
             "link": "https://nuno-moreira-ribeiro.github.io/2048/"
+        },
+        {
+            "previewTitle": "Site vitrine",
+            "projectTitle": "Site web NAMR",
+            "previewImg": "iconNAMR.jpg",
+            "projectImg": "NAMR.png",
+            "description": "Aprés avoir aidé un proche à créer son entreprise, j'ai décidé de lui faire un site internet afin qu'il puisse montrer à ses futurs clients ses précédentes réalisations.",
+            "containerId": "perso-container",
+            "tools": [
+                "w3_html5-icon.svg",
+                "w3_css-icon.svg",
+                "javascript-1.svg"
+            ],
+            "retexLink": "",
+            "link": "https://nuno-moreira-ribeiro.github.io/NAMRWebSite /"
         }
     ]
 }
