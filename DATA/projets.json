@@ -182,6 +182,21 @@
             "link": "https://nuno-moreira-ribeiro.github.io/2048/"
         },
         {
+            "previewTitle": "Puissance4",
+            "projectTitle": "Puissance4",
+            "previewImg": "Puissance4Logo.png",
+            "projectImg": "puissance4.png",
+            "description": "Pour améliorer mes compétences en Javascript et en CSS, j'ai décidé de créer un puissance 4. Ce projet demande une certaine réflexion en matière de balises et de positions, grâce à mes compétences en flex-box ce projet a été très ludique et instructif.",
+            "containerId": "perso-container",
+            "tools": [
+                "w3_html5-icon.svg",
+                "w3_css-icon.svg",
+                "javascript-1.svg"
+            ],
+            "retexLink": "",
+            "link": "https://nuno-moreira-ribeiro.github.io/puissance4/"
+        },
+        {
             "previewTitle": "Site vitrine",
             "projectTitle": "Site web NAMR",
             "previewImg": "iconNAMR.jpg",
