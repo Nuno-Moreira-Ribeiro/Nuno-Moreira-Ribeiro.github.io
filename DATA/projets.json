@@ -43,7 +43,7 @@
                 "git-scm-icon.svg",
                 "visual-studio-seeklogo.com.svg"
             ],
-            "retexLink": "",
+            "retexLink": "Retour_experience_Hyperstellar.pdf",
             "link": ""
         },
         {
@@ -58,7 +58,7 @@
                 "git-scm-icon.svg",
                 "NetBeans-Logo.wine.svg"
             ],
-            "retexLink": "",
+            "retexLink": "Graphes.pdf",
             "link": ""
         },
         {
@@ -74,7 +74,7 @@
                 "c--4.svg",
                 "dotnet.svg"
             ],
-            "retexLink": "",
+            "retexLink": "Comput-R.pdf",
             "link": ""
         },
         {
@@ -104,7 +104,7 @@
                 "ONLYOFFICE_logo.svg",
                 "markdown.svg"
             ],
-            "retexLink": "",
+            "retexLink": "ServeurDeFichiers.pdf",
             "link": ""
         },
         {
@@ -210,6 +210,25 @@
             ],
             "retexLink": "",
             "link": "https://nuno-moreira-ribeiro.github.io/NAMRWebSite/"
+        },
+        {
+            "previewTitle": "Cataloge de séries",
+            "projectTitle": "NES",
+            "previewImg": "NES1.png",
+            "projectImg": "NES2.png",
+            "description": "Lors de mon projet à l'IUT informatique de Bordeaux, avec 6 camarades, nous avons créé un site pour consulter, suivre, noter et commenter des séries. En tant que développeur fullstack, j'ai géré le front-end, le design, et le back-end pour répondre aux exigences du product owner.",
+            "containerId": "html-container",
+            "tools": [
+                "w3_html5-icon.svg",
+                "w3_css-icon.svg",
+                "javascript-1.svg",
+                "PHP.svg",
+                "Symfony.svg",
+                "Composer.svg"
+
+            ],
+            "retexLink": "NES.pdf",
+            "link": ""
         }
     ]
 }
